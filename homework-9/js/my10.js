@@ -13,6 +13,6 @@ if (confirm('Почати тестування?')) {
 
 	const taxes = prices.map(element => element * 0.2)
 
-	document.write(`<div style="font-size:24px; margin-bottom:10px;">Масив податку:[${taxes}]</div>`)
+	document.write(`<div style="font-size:24px; margin-bottom:10px;">Масив податку:[${taxes}]</div > `)
 
 }
