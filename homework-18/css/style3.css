@@ -1,0 +1,99 @@
+@import url("reset.css");
+
+
+/* основні стилі */
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #000;
+	background: #fff;
+	font-size: 20px;
+}
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper>main {
+	flex-grow: 1;
+}
+
+[class*="__container"] {
+	max-width: 75rem;
+	margin: 0 auto;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+}
+
+[class*="--margin"] {
+	margin-bottom: 0.9375rem;
+}
+
+.page {
+	padding: 30px;
+}
+
+
+/* ----------------------- */
+
+header,
+footer,
+.main__title {
+	min-height: 50px;
+	background-color: rgb(153, 158, 156);
+	text-align: center;
+	font-size: 36px;
+	padding: 10px;
+}
+
+header {
+	margin-bottom: 10px;
+}
+
+/* ----------------------- */
+
+
+
+.info__input{
+	width: 300px;
+	/* color: #999; */
+	font-size: 16px;
+	line-height: 1.3;
+	padding: 10px 10px;
+	border-radius: 6px;
+	border: 1px solid #E6E6E6;
+}
+.info__buttons{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.info__button{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.2;
+	border-radius: 43px;
+	background-color: #999b99;
+	width: 140px;
+	padding: 16px 16px;
+	transition: background-color 0.5s;
+	transition: transform 0.5s;
+	margin-bottom: 10px;
+}
+
+
+
+.info__button:hover {
+	background-color: #4a5e4a;
+	transition: background-color 0.5s;
+}
+
+.info__button:active {
+	transform: scale(0.95);
+}
+.info__table{
+border: 2px solid black;
+max-width: 300px;
+}
